@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<!-- Crusader Armor-->
+
+  <ThingDef ParentName="ArmorSmithableBase">
+    <defName>Apparel_Crusader</defName>
+    <label>Crusader Armor</label>
+    <description>The armor worn by Crusaders.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+	  </recipeUsers>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CrusaderArmour</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>4</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>120</Steel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+		 <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CrusaderArmour</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+		<li>Middle</li>
+      </layers>
+      <tags>
+        <li>OldCrusader</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+   
+   <!-- Crusader Fatigues-->
+   
+    <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_CFatigues</defName>
+    <label>Crusader Fatigues</label>
+    <description>The fatigues worn by the new Crusaders.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+		 <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+	  </recipeUsers>
+        <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CFatigues</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>0.08</MoveSpeed>
+    </equippedStatOffsets>
+   <costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CFatigues</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Crusader</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  	<!-- Crusader Knight Armor-->
+
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_CKChestplate</defName>
+    <label>Crusader Knight Chestplate</label>
+    <description>The armor worn by Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+        <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CKChestplate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2300</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>4.5</Mass>
+      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>150</Steel>
+	   <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+		 <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CKChestplate</wornGraphicPath>
+      <layers>
+		<li>Middle</li>
+      </layers>
+      <tags>
+        <li>CrusaderKnight</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+   
+   
+   
+    	<!-- Crusader Heavy Armor-->
+
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_CKHeavy</defName>
+    <label>Crusader Heavy Plate</label>
+    <description>The armor worn by Heavy Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+        <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CKHeavy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>5</Mass>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>250</Steel>
+	   <ComponentIndustrial>14</ComponentIndustrial>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+		 <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CKHeavy</wornGraphicPath>
+      <layers>
+		<li>Middle</li>
+		<li>Shell</li>
+      </layers>
+      <tags>
+        <li>CrusaderHeavy</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+   
+   
+   
+   <!-- Crusader Sergeant Armor-->
+   
+    <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_SergeantVest</defName>
+    <label>Crusader Sergeant Vest</label>
+    <description>The armor worn by Crusader Sergeants.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+        <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/SergeantVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>3.4</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>100</Steel>
+	   <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+		 <li>Neck</li>
+				<li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/SergeantVest</wornGraphicPath>
+      <layers>
+		<li>Middle</li>
+      </layers>
+      <tags>
+        <li>CrusaderSergeant</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+   
+   
+   	<!-- Crusader Elite Armor-->
+
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_CKElite</defName>
+    <label>Crusader Elite Chestplate</label>
+    <description>The armor worn by Elite Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+	 <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+        <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	     
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CKElite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>4.5</Mass>
+      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>150</Steel>
+	   <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+		 <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CKElite</wornGraphicPath>
+      <layers>
+		<li>Middle</li>
+      </layers>
+      <tags>
+        <li>CrusaderElite</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+   
+   
+   
+   </Defs>

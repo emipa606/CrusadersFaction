@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <RulePackDef>
+    <defName>NamerFactionCrusaders</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Crusader] Castle</li>
+        <li>name-> [geography] Holy Citadel</li>
+        <li>geography->[terrainfeature]</li>
+      </rulesStrings>
+      <rulesRaw>
+		        <li Class="Rule_File">
+          <keyword>Crusader</keyword>
+          <path>NameBanks/Names_Crusader</path>
+		
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

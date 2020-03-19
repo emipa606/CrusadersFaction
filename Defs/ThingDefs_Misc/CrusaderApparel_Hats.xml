@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<!-- ================================== Crusader Helmet ====================================-->
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_CrusaderHelmet</defName>
+    <label>Crusader Helmet</label>
+    <description>A great helm worn by the Crusaders.</description>
+    <techLevel>Medieval</techLevel>
+	
+    <recipeMaker>
+		 <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        </recipeUsers>
+		<researchPrerequisite>Smithing</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	
+
+	  
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CrusaderHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+    </statBases>
+	
+    <costList>
+	  <Steel>50</Steel>
+    </costList>
+	
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CrusaderHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+	    <li>OldCrusader</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+
+  </ThingDef>
+
+  
+  
+   	<!-- ================================== Crusader Knight Helmet ====================================-->
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_CrusaderKnightHelmet</defName>
+    <label>Crusader Knight Helmet</label>
+    <description>A great helm worn by the Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <recipeMaker>
+		 <recipeUsers>
+        <li>ElectricSmithy</li>
+       <li>TableMachining</li>
+        </recipeUsers>
+		<researchPrerequisite>Machining</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	  
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CKHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+    </statBases>
+	
+    <costList>
+	  <Steel>60</Steel>
+	  <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+	
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CKHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+	    <li>CrusaderKnight</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+
+  </ThingDef>
+  
+  
+  
+  
+   	<!-- ================================== Crusader Heavy Helmet ====================================-->
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_CrusaderHeavyHelmet</defName>
+    <label>Crusader Heavy Helmet</label>
+    <description>A helmet worn by the Heavy Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <recipeMaker>
+		 <recipeUsers>
+        <li>ElectricSmithy</li>
+       <li>TableMachining</li>
+        </recipeUsers>
+		<researchPrerequisite>Machining</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	  
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/CKHeavyHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+    </statBases>
+	
+    <costList>
+	  <Steel>60</Steel>
+	  <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+	
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/CKHeavyHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+	    <li>CrusaderHeavy</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+   	<!-- ================================== Sergeant Helmet ====================================-->
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_CrusaderSergeantHelm</defName>
+    <label>Crusader Sergeant Helmet</label>
+    <description>A helmet worn by the Crusader Sergeant.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <recipeMaker>
+		 <recipeUsers>
+        <li>ElectricSmithy</li>
+       <li>TableMachining</li>
+        </recipeUsers>
+		<researchPrerequisite>Machining</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	  
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/SergeantHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+    </statBases>
+	
+    <costList>
+	  <Steel>40</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+	
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/SergeantHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+	    <li>CrusaderSergeant</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>
+  
+  
+  
+   	<!-- ================================== Crusader Elite Helmet ====================================-->
+
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_CrusaderEliteHelmet</defName>
+    <label>Crusader Elite Helmet</label>
+    <description>A great helm worn by the Elite Crusader Knights.</description>
+    <techLevel>Industrial</techLevel>
+	
+    <recipeMaker>
+		 <recipeUsers>
+        <li>ElectricSmithy</li>
+       <li>TableMachining</li>
+        </recipeUsers>
+		<researchPrerequisite>Machining</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+	  
+    <graphicData>
+      <texPath>Things/Apparel/Apparel_Crusader/EliteHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>1600</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+    </statBases>
+	
+    <costList>
+	  <Steel>60</Steel>
+	  <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+	
+    <equippedStatOffsets>
+	  <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Apparel_Crusader/EliteHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+	    <li>CrusaderElite</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+
+  </ThingDef>
+  
+  
+  
+  
+  
+</Defs>
