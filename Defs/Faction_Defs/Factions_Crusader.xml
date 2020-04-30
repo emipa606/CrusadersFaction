@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef>
-		<defName>Crusaders</defName>
-		<label>Soldiers of God</label>
+    <defName>Crusaders</defName>
+    <label>Soldiers of God</label>
     <description>The holy warriors of God</description>
     <pawnsPlural>Crusaders</pawnsPlural>
     <settlementGenerationWeight>1</settlementGenerationWeight>
@@ -15,47 +14,41 @@
     <goodwillDailyGain>0.20</goodwillDailyGain>
     <goodwillDailyFall>0.20</goodwillDailyFall>
     <leaderTitle>Pope</leaderTitle>
-	<autoFlee>false</autoFlee>
+    <autoFlee>false</autoFlee>
     <hidden>false</hidden>
     <factionIconPath>World/CrusaderLogo</factionIconPath>
-    
-	<colorSpectrum>
+    <colorSpectrum>
       <li>(204, 0, 0)</li>
     </colorSpectrum>
-	
     <startingGoodwill>
       <min>20</min>
       <max>40</max>
     </startingGoodwill>
-	
     <mustStartOneEnemy>false</mustStartOneEnemy>
-		<fixedName>Crusaders</fixedName>
+    <fixedName>Crusaders</fixedName>
     <factionNameMaker>NamerFactionCrusaders</factionNameMaker>
-		<techLevel>Spacer</techLevel>    
-		<backstoryFilters>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
       <li>
         <categories>
           <li>Outlander</li>
         </categories>
       </li>
     </backstoryFilters>
-		<geneticVariance>0.8</geneticVariance>
-		<hairTags>
-			<li>Rural</li>
-			<li>Urban</li>
-		</hairTags>
-		
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Rural</li>
+      <li>Urban</li>
+    </hairTags>
     <naturalColonyGoodwill>
       <min>20</min>
       <max>40</max>
     </naturalColonyGoodwill>
-	
     <allowedArrivalTemperatureRange>
       <min>-20</min>
       <max>45</max>
     </allowedArrivalTemperatureRange>
-	
-	<maxPawnCostPerTotalPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
         <li>(70, 50)</li>
@@ -66,40 +59,48 @@
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-				<!-- Normal fights, standard mix -->
-				<kindDef>Combat</kindDef>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
         <commonality>150</commonality>
         <options>
-					<Crusader_Sergeant>5</Crusader_Sergeant>
-					<Crusader_Sergeant>10</Crusader_Sergeant>
-					<Crusader_Knight>20</Crusader_Knight>
-					<Crusader_Knight>40</Crusader_Knight>
-					<Crusader_Knight>70</Crusader_Knight>
-					<Crusader_Heavy>30</Crusader_Heavy>
-					<Crusader_Heavy>50</Crusader_Heavy>
-					<Crusader_Elite>70</Crusader_Elite>
-					<Crusader_Elite>80</Crusader_Elite>
+          <Crusader_Sergeant>5</Crusader_Sergeant>
+          <Crusader_Sergeant>10</Crusader_Sergeant>
+          <Crusader_Knight>20</Crusader_Knight>
+          <Crusader_Knight>40</Crusader_Knight>
+          <Crusader_Knight>70</Crusader_Knight>
+          <Crusader_Heavy>30</Crusader_Heavy>
+          <Crusader_Heavy>50</Crusader_Heavy>
+          <Crusader_Elite>70</Crusader_Elite>
+          <Crusader_Elite>80</Crusader_Elite>
           <Crusader_Boss>70</Crusader_Boss>
         </options>
       </li>
-	  
       <li>
-				<!-- Base defense -->
-				<kindDef>Settlement</kindDef>
+        <!-- Friendlies, standard mix -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Crusader_Sergeant>2</Crusader_Sergeant>
+          <Crusader_Knight>10</Crusader_Knight>
+          <Crusader_Heavy>15</Crusader_Heavy>
+          <Crusader_Elite>35</Crusader_Elite>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense -->
+        <kindDef>Settlement</kindDef>
         <options>
           <Crusader_Sergeant>5</Crusader_Sergeant>
-					<Crusader_Sergeant>20</Crusader_Sergeant>
-					<Crusader_Knight>20</Crusader_Knight>
-					<Crusader_Heavy>15</Crusader_Heavy>
-					<Crusader_Heavy>20</Crusader_Heavy>
-					<Crusader_Elite>50</Crusader_Elite>
-					<Crusader_Elite>40</Crusader_Elite>
+          <Crusader_Sergeant>20</Crusader_Sergeant>
+          <Crusader_Knight>20</Crusader_Knight>
+          <Crusader_Heavy>15</Crusader_Heavy>
+          <Crusader_Heavy>20</Crusader_Heavy>
+          <Crusader_Elite>50</Crusader_Elite>
+          <Crusader_Elite>40</Crusader_Elite>
           <Crusader_Boss>60</Crusader_Boss>
         </options>
       </li>
-	  
-	  <li>
-	    <!-- TRADER -->
+      <li>
+        <!-- TRADER -->
         <kindDef>Trader</kindDef>
         <traders>
           <Crusader_Trader>1</Crusader_Trader>
@@ -110,18 +111,16 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-		  <Crusader_Sergeant>20</Crusader_Sergeant>
           <Crusader_Sergeant>20</Crusader_Sergeant>
-		  <Crusader_Sergeant>40</Crusader_Sergeant>
+          <Crusader_Sergeant>20</Crusader_Sergeant>
+          <Crusader_Sergeant>40</Crusader_Sergeant>
           <Crusader_Knight>30</Crusader_Knight>
-		  <Crusader_Elite>90</Crusader_Elite>
-		  <Crusader_Knight>50</Crusader_Knight>
+          <Crusader_Elite>90</Crusader_Elite>
+          <Crusader_Knight>50</Crusader_Knight>
         </guards>
-      </li>  
-	  
+      </li>
     </pawnGroupMakers>
-	
-	  	    <caravanTraderKinds>
+    <caravanTraderKinds>
       <li>Crusader_CombatSupplier</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
@@ -130,7 +129,6 @@
     <baseTraderKinds>
       <li>Crusader_Base</li>
     </baseTraderKinds>
-	
     <settlementTexturePath>World/WorldObjects/DefaultFactionBase</settlementTexturePath>
-</FactionDef>
+  </FactionDef>
 </Defs>

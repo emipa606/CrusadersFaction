@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
- <ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>Bullet_HolyLance</defName>
     <label>Holy Shot</label>
     <graphicData>
@@ -14,8 +13,6 @@
       <speed>85</speed>
     </projectile>
   </ThingDef>
-  
-  
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_HolyLance</defName>
     <label>Holy Lance</label>
@@ -36,7 +33,7 @@
     </statBases>
     <costList>
       <Steel>35</Steel>
-	  <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -52,9 +49,9 @@
         <muzzleFlashScale>40</muzzleFlashScale>
       </li>
     </verbs>
-		<weaponTags>
-			<li>Crusader</li>
-		</weaponTags>
+    <weaponTags>
+      <li>Crusader</li>
+    </weaponTags>
     <tools>
       <li>
         <label>handle</label>
@@ -74,8 +71,7 @@
       </li>
     </tools>
   </ThingDef>
-  
-   <ThingDef ParentName="BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Projectile_HolySword</defName>
     <label>Holy Sword</label>
     <graphicData>
@@ -89,7 +85,6 @@
       <speed>26</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>HolySword</defName>
     <label>Holy Sword</label>
@@ -122,7 +117,7 @@
     </verbs>
     <costList>
       <Steel>50</Steel>
-	  <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <tools>
       <li>
@@ -135,12 +130,11 @@
       </li>
     </tools>
   </ThingDef>
-  
   <ThingDef ParentName="BaseWeapon">
     <defName>HolyCross</defName>
     <label>The Holy Cross</label>
     <description>The Holy Cross used by the Pope to erase heresy and blasphemy.</description>
-	<thingCategories>
+    <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
     <graphicData>
@@ -174,12 +168,11 @@
         </targetParams>
       </li>
     </verbs>
-	 <weaponTags>
+    <weaponTags>
       <li>CrusaderPope</li>
     </weaponTags>
   </ThingDef>
-
-   <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_HolyRifle</defName>
     <label>bolt-action crusader rifle</label>
     <description>Ancient pattern bolt-action rifle. Good range, good power, low rate of fire. Painted to complement the Crusaders.</description>
@@ -188,9 +181,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-		<weaponTags>
-			<li>Crusader</li>
-		</weaponTags>
+    <weaponTags>
+      <li>Crusader</li>
+    </weaponTags>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>3.5</Mass>
@@ -236,8 +229,6 @@
       </li>
     </tools>
   </ThingDef>
-
-  
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_CrusaderRifle</defName>
     <label>crusader assault rifle</label>
@@ -277,9 +268,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-		<weaponTags>
-			<li>Crusader</li>
-		</weaponTags>
+    <weaponTags>
+      <li>Crusader</li>
+    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -300,8 +291,4 @@
       </li>
     </tools>
   </ThingDef>
-
-  
-  
-  
-  </Defs>
+</Defs>

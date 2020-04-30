@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Crusaders Faction (Continued)</name>
-  	<packageId>Mlie.CrusadersFaction</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/CrusadersFaction</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Fierydrakens mod for RimWorld 1.1
+  <name>Crusaders Faction (Continued)</name>
+  <packageId>Mlie.CrusadersFaction</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/CrusadersFaction</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Fierydrakens mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1355467026
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
 
 Support-chat:
 https://discord.gg/SuhwVpM

@@ -1,24 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TraderKindDef>
     <defName>Crusader_CombatSupplier</defName>
     <label>Crusades Carravan</label>
     <commonality>1</commonality>
     <stockGenerators>
-	
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-					<min>25000</min>
-					<max>50000</max>
+          <min>25000</min>
+          <max>50000</max>
         </countRange>
       </li>
-	  
-	  
-	  
-	  <!--=== STOCK STUFF BOI. ===-->
-	  
+      <!--=== STOCK STUFF BOI. ===-->
       <li Class="StockGenerator_WeaponsRanged">
         <countRange>
           <min>5</min>
@@ -31,10 +25,10 @@
           <min>2</min>
           <max>4</max>
         </thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
       </li>
       <li Class="StockGenerator_Armor">
         <countRange>
@@ -55,17 +49,15 @@
           <min>1</min>
           <max>2</max>
         </thingDefCountRange>
-				<countRange>
-					<min>20</min>
-					<max>40</max>
-				</countRange>
-			</li>
-			<li Class="StockGenerator_Art" />
+        <countRange>
+          <min>20</min>
+          <max>40</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Art" />
     </stockGenerators>
   </TraderKindDef>
-
-  	  <!--=== PirateMerch ===-->
-  
+  <!--=== PirateMerch ===-->
   <TraderKindDef>
     <defName>Crusader_PirateMerchant</defName>
     <label>Crusader Quartermaster</label>
@@ -74,8 +66,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-					<min>5000</min>
-					<max>15000</max>
+          <min>5000</min>
+          <max>15000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_Slaves">
@@ -84,28 +76,22 @@
           <max>4</max>
         </countRange>
       </li>
-	 
-	
-	  	        <li Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>MealSurvivalPack</thingDef>
-		<price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>100</min>
           <max>200</max>
         </countRange>
       </li>
-	  
-	  	        <li Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-		<price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>50</min>
           <max>100</max>
         </countRange>
       </li>
-	  
-	  
-
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <price>VeryCheap</price>
@@ -114,10 +100,9 @@
           <max>250</max>
         </countRange>
       </li>
-	  
-	   <li Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>50</min>
           <max>100</max>
@@ -125,7 +110,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>500</min>
           <max>1000</max>
@@ -133,7 +118,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>500</min>
           <max>1000</max>
@@ -141,7 +126,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>90</min>
           <max>500</max>
@@ -149,31 +134,31 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>800</min>
           <max>2000</max>
         </countRange>
-		</li>
-		      <li Class="StockGenerator_SingleDef">
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Synthread</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>200</min>
           <max>400</max>
         </countRange>
-		</li>
-		      <li Class="StockGenerator_SingleDef">
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <countRange>
           <min>50</min>
           <max>150</max>
         </countRange>
-		</li>
-		      <li Class="StockGenerator_Tag">
+      </li>
+      <li Class="StockGenerator_Tag">
         <tradeTag>BodyPartOrImplant</tradeTag>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>2</min>
           <max>4</max>
@@ -185,7 +170,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Exotic</tradeTag>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>1</min>
           <max>4</max>
@@ -197,7 +182,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>1</min>
           <max>4</max>
@@ -209,7 +194,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>2</min>
           <max>4</max>
@@ -221,9 +206,11 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-                  <price>VeryCheap</price>
-				<excludedCategories><li>EggsFertilized</li></excludedCategories>
-				<thingDefCountRange>
+        <price>VeryCheap</price>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>
           <min>2</min>
           <max>4</max>
         </thingDefCountRange>
@@ -234,7 +221,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>1</min>
           <max>2</max>
@@ -246,7 +233,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Furniture</tradeTag>
-                  <price>VeryCheap</price>
+        <price>VeryCheap</price>
         <thingDefCountRange>
           <min>3</min>
           <max>4</max>
@@ -256,7 +243,6 @@
           <max>2</max>
         </countRange>
       </li>
-
       <li Class="StockGenerator_Animals">
         <checkTemperature>true</checkTemperature>
         <tradeTagsSell>
@@ -277,5 +263,4 @@
       </li>
     </stockGenerators>
   </TraderKindDef>
-
 </Defs>

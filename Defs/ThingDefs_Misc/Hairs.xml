@@ -1,14 +1,12 @@
-﻿
 <Defs>
   <HairDef>
     <defName>Lioness</defName>
     <label>lioness</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Hair/Lioness</texPath>
-		<hairTags>
-			<li>Urban</li>
-			<li>Rural</li>
-		</hairTags>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
   </HairDef>
-  
 </Defs>
