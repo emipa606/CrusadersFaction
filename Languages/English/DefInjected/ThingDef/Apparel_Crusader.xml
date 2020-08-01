@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crusader Armor -->
+
+  <Apparel_Crusader.label>Crusader Armor</Apparel_Crusader.label>
+  <Apparel_Crusader.description>The armor worn by Crusaders.</Apparel_Crusader.description>
+
+
+  <!-- Crusader Fatigues -->
+
+  <Apparel_CFatigues.label>Crusader Fatigues</Apparel_CFatigues.label>
+  <Apparel_CFatigues.description>The fatigues worn by the new Crusaders.</Apparel_CFatigues.description>
+
+
+  <!-- Crusader Knight Armor -->
+
+  <Apparel_CKChestplate.label>Crusader Knight Chestplate</Apparel_CKChestplate.label>
+  <Apparel_CKChestplate.description>The armor worn by Crusader Knights.</Apparel_CKChestplate.description>
+
+
+  <!-- Crusader Heavy Armor -->
+
+  <Apparel_CKHeavy.label>Crusader Heavy Plate</Apparel_CKHeavy.label>
+  <Apparel_CKHeavy.description>The armor worn by Heavy Crusader Knights.</Apparel_CKHeavy.description>
+
+
+  <!-- Crusader Sergeant Armor -->
+
+  <Apparel_SergeantVest.label>Crusader Sergeant Vest</Apparel_SergeantVest.label>
+  <Apparel_SergeantVest.description>The armor worn by Crusader Sergeants.</Apparel_SergeantVest.description>
+
+
+  <!-- Crusader Elite Armor -->
+
+  <Apparel_CKElite.label>Crusader Elite Chestplate</Apparel_CKElite.label>
+  <Apparel_CKElite.description>The armor worn by Elite Crusader Knights.</Apparel_CKElite.description>
+
+
+</LanguageData>

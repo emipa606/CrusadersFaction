@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crusader Helmet -->
+
+  <Apparel_CrusaderHelmet.label>Crusader Helmet</Apparel_CrusaderHelmet.label>
+  <Apparel_CrusaderHelmet.description>A great helm worn by the Crusaders.</Apparel_CrusaderHelmet.description>
+
+
+  <!-- Crusader Knight Helmet -->
+
+  <Apparel_CrusaderKnightHelmet.label>Crusader Knight Helmet</Apparel_CrusaderKnightHelmet.label>
+  <Apparel_CrusaderKnightHelmet.description>A great helm worn by the Crusader Knights.</Apparel_CrusaderKnightHelmet.description>
+
+
+  <!-- Crusader Heavy Helmet -->
+
+  <Apparel_CrusaderHeavyHelmet.label>Crusader Heavy Helmet</Apparel_CrusaderHeavyHelmet.label>
+  <Apparel_CrusaderHeavyHelmet.description>A helmet worn by the Heavy Crusader Knights.</Apparel_CrusaderHeavyHelmet.description>
+
+
+  <!-- Sergeant Helmet -->
+
+  <Apparel_CrusaderSergeantHelm.label>Crusader Sergeant Helmet</Apparel_CrusaderSergeantHelm.label>
+  <Apparel_CrusaderSergeantHelm.description>A helmet worn by the Crusader Sergeant.</Apparel_CrusaderSergeantHelm.description>
+
+
+  <!-- Crusader Elite Helmet -->
+
+  <Apparel_CrusaderEliteHelmet.label>Crusader Elite Helmet</Apparel_CrusaderEliteHelmet.label>
+  <Apparel_CrusaderEliteHelmet.description>A great helm worn by the Elite Crusader Knights.</Apparel_CrusaderEliteHelmet.description>
+
+
+</LanguageData>
