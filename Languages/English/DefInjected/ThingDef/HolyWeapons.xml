@@ -1,31 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Bullet_HolyLance.label>Holy Shot</Bullet_HolyLance.label>
-
-  <Gun_HolyLance.label>Holy Lance</Gun_HolyLance.label>
-  <Gun_HolyLance.description>The Holy lance is the standard weapon used by the crusaders.</Gun_HolyLance.description>
-  <Gun_HolyLance.tools.0.label>handle</Gun_HolyLance.tools.0.label>
-  <Gun_HolyLance.tools.1.label>point</Gun_HolyLance.tools.1.label>
-
-  <Projectile_HolySword.label>Holy Sword</Projectile_HolySword.label>
-
-  <HolySword.label>Holy Sword</HolySword.label>
-  <HolySword.description>The holy swords are used by the pope's elite gaurd. The swords are imbued with Gods will.</HolySword.description>
-  <HolySword.tools.0.label>blade</HolySword.tools.0.label>
-
-  <HolyCross.label>The Holy Cross</HolyCross.label>
-  <HolyCross.description>The Holy Cross used by the Pope to erase heresy and blasphemy.</HolyCross.description>
-
-  <Gun_HolyRifle.label>bolt-action crusader rifle</Gun_HolyRifle.label>
-  <Gun_HolyRifle.description>Ancient pattern bolt-action rifle. Good range, good power, low rate of fire. Painted to complement the Crusaders.</Gun_HolyRifle.description>
-  <Gun_HolyRifle.tools.0.label>stock</Gun_HolyRifle.tools.0.label>
-  <Gun_HolyRifle.tools.1.label>barrel</Gun_HolyRifle.tools.1.label>
-
-  <Gun_CrusaderRifle.label>crusader assault rifle</Gun_CrusaderRifle.label>
-  <Gun_CrusaderRifle.description>A general-purpose military weapon for field or urban combat. It fires a three-round burst. Good range, low power, high rate of fire. Painted to complement the Crusaders.</Gun_CrusaderRifle.description>
-  <Gun_CrusaderRifle.tools.0.label>stock</Gun_CrusaderRifle.tools.0.label>
-  <Gun_CrusaderRifle.tools.1.label>barrel</Gun_CrusaderRifle.tools.1.label>
-
+  <!--<Bullet_HolyLance.label>Holy Shot</Bullet_HolyLance.label>-->
+  <!--<Gun_HolyLance.label>Holy Lance</Gun_HolyLance.label>-->
+  <!--<Gun_HolyLance.description>The Holy lance is the standard weapon used by the crusaders.</Gun_HolyLance.description>-->
+  <!--<Gun_HolyLance.tools.0.label>handle</Gun_HolyLance.tools.0.label>-->
+  <!--<Gun_HolyLance.tools.1.label>point</Gun_HolyLance.tools.1.label>-->
+  <!--<Projectile_HolySword.label>Holy Sword</Projectile_HolySword.label>-->
+  <!--<HolySword.label>Holy Sword</HolySword.label>-->
+  <!--<HolySword.description>The holy swords are used by the pope's elite gaurd. The swords are imbued with Gods will.</HolySword.description>-->
+  <!--<HolySword.tools.0.label>blade</HolySword.tools.0.label>-->
+  <!--<HolyCross.label>The Holy Cross</HolyCross.label>-->
+  <!--<HolyCross.description>The Holy Cross used by the Pope to erase heresy and blasphemy.</HolyCross.description>-->
+  <!--<Gun_HolyRifle.label>bolt-action crusader rifle</Gun_HolyRifle.label>-->
+  <!--<Gun_HolyRifle.description>Ancient pattern bolt-action rifle. Good range, good power, low rate of fire. Painted to complement the Crusaders.</Gun_HolyRifle.description>-->
+  <!--<Gun_HolyRifle.tools.0.label>stock</Gun_HolyRifle.tools.0.label>-->
+  <!--<Gun_HolyRifle.tools.1.label>barrel</Gun_HolyRifle.tools.1.label>-->
+  <!--<Gun_CrusaderRifle.label>crusader assault rifle</Gun_CrusaderRifle.label>-->
+  <!--<Gun_CrusaderRifle.description>A general-purpose military weapon for field or urban combat. It fires a three-round burst. Good range, low power, high rate of fire. Painted to complement the Crusaders.</Gun_CrusaderRifle.description>-->
+  <!--<Gun_CrusaderRifle.tools.0.label>stock</Gun_CrusaderRifle.tools.0.label>-->
+  <!--<Gun_CrusaderRifle.tools.1.label>barrel</Gun_CrusaderRifle.tools.1.label>-->
 
 </LanguageData>

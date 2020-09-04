@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Crusaders.label>Soldiers of God</Crusaders.label>
-  <Crusaders.description>The holy warriors of God</Crusaders.description>
-  <Crusaders.fixedName>Crusaders</Crusaders.fixedName>
-  <Crusaders.pawnsPlural>Crusaders</Crusaders.pawnsPlural>
-  <Crusaders.leaderTitle>Pope</Crusaders.leaderTitle>
-
+  <!--<Crusaders.label>Soldiers of God</Crusaders.label>-->
+  <!--<Crusaders.description>The holy warriors of God</Crusaders.description>-->
+  <!--<Crusaders.fixedName>Crusaders</Crusaders.fixedName>-->
+  <!--<Crusaders.pawnsPlural>Crusaders</Crusaders.pawnsPlural>-->
+  <!--<Crusaders.leaderTitle>Pope</Crusaders.leaderTitle>-->
 
 </LanguageData>

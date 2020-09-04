@@ -1,23 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Crusader_Sergeant.label>Sergeant</Crusader_Sergeant.label>
-  <Crusader_Sergeant.labelPlural>Sergeants</Crusader_Sergeant.labelPlural>
-
-  <Crusader_Knight.label>Knight</Crusader_Knight.label>
-  <Crusader_Knight.labelPlural>Knights</Crusader_Knight.labelPlural>
-
-  <Crusader_Heavy.label>Heavy Knight</Crusader_Heavy.label>
-  <Crusader_Heavy.labelPlural>Heavy Knights</Crusader_Heavy.labelPlural>
-
-  <Crusader_Elite.label>Elite Gaurd</Crusader_Elite.label>
-  <Crusader_Elite.labelPlural>Elite Gaurds</Crusader_Elite.labelPlural>
-
-  <Crusader_Boss.label>Pope</Crusader_Boss.label>
-  <Crusader_Boss.labelPlural>Popes</Crusader_Boss.labelPlural>
-
-  <Crusader_Trader.label>trader</Crusader_Trader.label>
-  <Crusader_Trader.labelPlural>traders</Crusader_Trader.labelPlural>
-
+  <!--<Crusader_Sergeant.label>Sergeant</Crusader_Sergeant.label>-->
+  <!--<Crusader_Sergeant.labelPlural>Sergeants</Crusader_Sergeant.labelPlural>-->
+  <!--<Crusader_Knight.label>Knight</Crusader_Knight.label>-->
+  <!--<Crusader_Knight.labelPlural>Knights</Crusader_Knight.labelPlural>-->
+  <!--<Crusader_Heavy.label>Heavy Knight</Crusader_Heavy.label>-->
+  <!--<Crusader_Heavy.labelPlural>Heavy Knights</Crusader_Heavy.labelPlural>-->
+  <!--<Crusader_Elite.label>Elite Gaurd</Crusader_Elite.label>-->
+  <!--<Crusader_Elite.labelPlural>Elite Gaurds</Crusader_Elite.labelPlural>-->
+  <!--<Crusader_Boss.label>Pope</Crusader_Boss.label>-->
+  <!--<Crusader_Boss.labelPlural>Popes</Crusader_Boss.labelPlural>-->
+  <!--<Crusader_Trader.label>trader</Crusader_Trader.label>-->
+  <!--<Crusader_Trader.labelPlural>traders</Crusader_Trader.labelPlural>-->
 
 </LanguageData>
