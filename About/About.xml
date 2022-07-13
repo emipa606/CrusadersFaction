@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Crusaders Faction (Continued)</name>
   <packageId>Mlie.CrusadersFaction</packageId>
@@ -11,20 +11,24 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Fierydrakens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1355467026
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/CrusadersFaction][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 DEUS VULT!
 
@@ -40,105 +44,12 @@ Put down the blunt and
 pick up ya sword,
 head to jerusalem in the
 name of the lord
-it ain&apos;t about gettin paid
-it ain&apos;t about gettin laid
+it ain't about gettin paid
+it ain't about gettin laid
 its about goin hard
 on that holy crusade!
 
 ......................._______
-....................../..|.-.-.-.-.-.|
-...................../..|.-.-.-.-.-.-|
-.....................|...|.-.-.-.-.-.|
-......_______.|__|.-.-.-.-.-|_________
-.../.|.-.-.-.-.-.-.-.-.-.-.-.- .-.-.-.-.-.-.-.-.-.-.-.|
-../..|.-.-.-.-.-..D.......E......U....S.-.-.-.-.-.|
-.|...|__________.-.-.-.-.-.__________|
-.|./................/..|.-.-.V .-.-|.................../
-./_______../....|-.-.-.-.-.-.|________/
-.................|.....|.-.-.U -.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.L .-.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.T .-.-|
-.................|.....|.-.-... -.-.|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.........-.|
-.................|.....|______-|
-
-
-
-Thanks to Chicken Plucker for a few textures and moral support!
-
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]|.-.-.-.-.-.|
-...................../..|.-.-.-.-.-.-|
-.....................|...|.-.-.-.-.-.|
-......_______.|__|.-.-.-.-.-|_________
-.../.|.-.-.-.-.-.-.-.-.-.-.-.- .-.-.-.-.-.-.-.-.-.-.-.|
-../..|.-.-.-.-.-..D.......E......U....S.-.-.-.-.-.|
-.|...|__________.-.-.-.-.-.__________|
-.|./................/..|.-.-.V .-.-|.................../
-./_______../....|-.-.-.-.-.-.|________/
-.................|.....|.-.-.U -.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.L .-.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.T .-.-|
-.................|.....|.-.-... -.-.|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.........-.|
-.................|.....|______-|
-
-
-
-Thanks to Chicken Plucker for a few textures and moral support!
-
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]|.-.-.-.-.-.|
-...................../..|.-.-.-.-.-.-|
-.....................|...|.-.-.-.-.-.|
-......_______.|__|.-.-.-.-.-|_________
-.../.|.-.-.-.-.-.-.-.-.-.-.-.- .-.-.-.-.-.-.-.-.-.-.-.|
-../..|.-.-.-.-.-..D.......E......U....S.-.-.-.-.-.|
-.|...|__________.-.-.-.-.-.__________|
-.|./................/..|.-.-.V .-.-|.................../
-./_______../....|-.-.-.-.-.-.|________/
-.................|.....|.-.-.U -.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.L .-.-|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.-.T .-.-|
-.................|.....|.-.-... -.-.|
-.................|.....|.-.-.- .-.-.|
-.................|.....|.-.........-.|
-.................|.....|______-|
-
-
-
-Thanks to Chicken Plucker for a few textures and moral support!
-
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]
+....................../..
 </description>
 </ModMetaData>
