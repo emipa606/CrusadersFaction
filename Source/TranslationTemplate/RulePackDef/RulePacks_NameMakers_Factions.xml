@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN:
+    <li>name->[Crusader] Castle</li>
+    <li>name-> [geography] Holy Citadel</li>
+    <li>geography->[terrainfeature]</li>
+  -->
+  <NamerFactionCrusaders.rulePack.rulesStrings>
+    <li>name->[Crusader] Castle</li>
+    <li>name-> [geography] Holy Citadel</li>
+    <li>geography->[terrainfeature]</li>
+  </NamerFactionCrusaders.rulePack.rulesStrings>
+</LanguageData>

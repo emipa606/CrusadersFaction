@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Pope -->
+  <Crusader_Boss.label>Pope</Crusader_Boss.label>
+  <!-- EN: Elite Gaurd -->
+  <Crusader_Elite.label>Elite Gaurd</Crusader_Elite.label>
+  <!-- EN: Heavy Knight -->
+  <Crusader_Heavy.label>Heavy Knight</Crusader_Heavy.label>
+  <!-- EN: Knight -->
+  <Crusader_Knight.label>Knight</Crusader_Knight.label>
+  <!-- EN: Sergeant -->
+  <Crusader_Sergeant.label>Sergeant</Crusader_Sergeant.label>
+  <!-- EN: trader -->
+  <Crusader_Trader.label>trader</Crusader_Trader.label>
+</LanguageData>

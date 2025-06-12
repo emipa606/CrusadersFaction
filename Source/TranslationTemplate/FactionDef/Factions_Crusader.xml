@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Soldiers of God -->
+  <Crusaders.label>Soldiers of God</Crusaders.label>
+  <!-- EN: The holy warriors of God -->
+  <Crusaders.description>The holy warriors of God</Crusaders.description>
+  <!-- EN: Crusaders -->
+  <Crusaders.fixedName>Crusaders</Crusaders.fixedName>
+  <!-- EN: Pope -->
+  <Crusaders.leaderTitle>Pope</Crusaders.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Crusaders.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Crusaders.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Crusaders.pawnSingular>member</Crusaders.pawnSingular>
+  <!-- EN: Crusaders -->
+  <Crusaders.pawnsPlural>Crusaders</Crusaders.pawnsPlural>
+</LanguageData>

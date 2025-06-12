@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RulePackDef>
     <defName>NamerFactionCrusaders</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt;[Crusader] Castle</li>
-        <li>name-&gt; [geography] Holy Citadel</li>
-        <li>geography-&gt;[terrainfeature]</li>
+        <li>name->[Crusader] Castle</li>
+        <li>name-> [geography] Holy Citadel</li>
+        <li>geography->[terrainfeature]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">

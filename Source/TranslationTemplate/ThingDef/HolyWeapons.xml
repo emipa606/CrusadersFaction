@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Holy Shot -->
+  <Bullet_HolyLance.label>Holy Shot</Bullet_HolyLance.label>
+  <!-- EN: crusader assault rifle -->
+  <Gun_CrusaderRifle.label>crusader assault rifle</Gun_CrusaderRifle.label>
+  <!-- EN: A general-purpose military weapon for field or urban combat. It fires a three-round burst. Good range, low power, high rate of fire. Painted to complement the Crusaders. -->
+  <Gun_CrusaderRifle.description>A general-purpose military weapon for field or urban combat. It fires a three-round burst. Good range, low power, high rate of fire. Painted to complement the Crusaders.</Gun_CrusaderRifle.description>
+  <!-- EN: stock -->
+  <Gun_CrusaderRifle.tools.stock.label>stock</Gun_CrusaderRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_CrusaderRifle.tools.barrel.label>barrel</Gun_CrusaderRifle.tools.barrel.label>
+  <!-- EN: crusader assault rifle -->
+  <Gun_CrusaderRifle.verbs.Verb_Shoot.label>crusader assault rifle</Gun_CrusaderRifle.verbs.Verb_Shoot.label>
+  <!-- EN: Holy Lance -->
+  <Gun_HolyLance.label>Holy Lance</Gun_HolyLance.label>
+  <!-- EN: The Holy lance is the standard weapon used by the crusaders. -->
+  <Gun_HolyLance.description>The Holy lance is the standard weapon used by the crusaders.</Gun_HolyLance.description>
+  <!-- EN: handle -->
+  <Gun_HolyLance.tools.handle.label>handle</Gun_HolyLance.tools.handle.label>
+  <!-- EN: point -->
+  <Gun_HolyLance.tools.point.label>point</Gun_HolyLance.tools.point.label>
+  <!-- EN: Holy Lance -->
+  <Gun_HolyLance.verbs.Verb_Shoot.label>Holy Lance</Gun_HolyLance.verbs.Verb_Shoot.label>
+  <!-- EN: bolt-action crusader rifle -->
+  <Gun_HolyRifle.label>bolt-action crusader rifle</Gun_HolyRifle.label>
+  <!-- EN: Ancient pattern bolt-action rifle. Good range, good power, low rate of fire. Painted to complement the Crusaders. -->
+  <Gun_HolyRifle.description>Ancient pattern bolt-action rifle. Good range, good power, low rate of fire. Painted to complement the Crusaders.</Gun_HolyRifle.description>
+  <!-- EN: stock -->
+  <Gun_HolyRifle.tools.stock.label>stock</Gun_HolyRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_HolyRifle.tools.barrel.label>barrel</Gun_HolyRifle.tools.barrel.label>
+  <!-- EN: bolt-action crusader rifle -->
+  <Gun_HolyRifle.verbs.Verb_Shoot.label>bolt-action crusader rifle</Gun_HolyRifle.verbs.Verb_Shoot.label>
+  <!-- EN: The Holy Cross -->
+  <HolyCross.label>The Holy Cross</HolyCross.label>
+  <!-- EN: The Holy Cross used by the Pope to erase heresy and blasphemy. -->
+  <HolyCross.description>The Holy Cross used by the Pope to erase heresy and blasphemy.</HolyCross.description>
+  <!-- EN: The Holy Cross -->
+  <HolyCross.verbs.Verb_PowerBeam.label>The Holy Cross</HolyCross.verbs.Verb_PowerBeam.label>
+  <!-- EN: Holy Sword -->
+  <HolySword.label>Holy Sword</HolySword.label>
+  <!-- EN: The holy swords are used by the pope's elite gaurd. The swords are imbued with Gods will. -->
+  <HolySword.description>The holy swords are used by the pope's elite gaurd. The swords are imbued with Gods will.</HolySword.description>
+  <!-- EN: blade -->
+  <HolySword.tools.blade.label>blade</HolySword.tools.blade.label>
+  <!-- EN: Holy Sword -->
+  <HolySword.verbs.Verb_Shoot.label>Holy Sword</HolySword.verbs.Verb_Shoot.label>
+  <!-- EN: Holy Sword -->
+  <Projectile_HolySword.label>Holy Sword</Projectile_HolySword.label>
+</LanguageData>
