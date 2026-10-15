@@ -46,4 +46,4 @@ on that holy crusade!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/CrusadersFaction?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2027727791) | tags: holy war
+[![Image](https://img.shields.io/github/v/release/emipa606/CrusadersFaction?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2027727791) | holy war
